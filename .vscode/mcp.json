@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "mcp-server-mcp-registry-stdio": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/dist/index.js"]
+    }
+    // "mcp-server-mcp-registry-streamable-http": {
+    //   "type": "http",
+    //   "url": "http://localhost:3088/mcp"
+    // },
+  }
+}
