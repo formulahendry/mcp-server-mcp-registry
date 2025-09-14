@@ -39,9 +39,9 @@ Alternatively, you can add configuration in `mcp.json`:
 }
 ```
 
-### 📋 Available Tools
+## 📋 Available Tools
 
-#### `list_mcp_servers`
+### `list_mcp_servers`
 
 Lists MCP servers from the MCP Registry with optional pagination and filtering.
 
