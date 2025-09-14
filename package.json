@@ -1,7 +1,8 @@
 {
   "name": "mcp-server-mcp-registry",
   "version": "0.1.0",
-  "description": "MCP Server for MCP Registry",
+  "mcpName": "io.github.formulahendry/mcp-server-mcp-registry",
+  "description": "MCP Server for MCP Registry to discover and search for available MCP servers in the registry",
   "author": "Jun Han",
   "license": "MIT",
   "type": "module",
