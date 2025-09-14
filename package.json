@@ -1,6 +1,9 @@
 {
   "name": "mcp-server-mcp-registry",
   "version": "0.1.0",
+  "description": "MCP Server for MCP Registry",
+  "author": "Jun Han",
+  "license": "MIT",
   "type": "module",
   "bin": {
     "mcp-server-mcp-registry": "dist/index.js"
@@ -15,15 +18,13 @@
     "dist"
   ],
   "keywords": [
-    "mcp"
+    "mcp",
+    "registry"
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/formulahendry/mcp-server-mcp-registry.git"
   },
-  "author": "",
-  "license": "MIT",
-  "description": "MCP Registry MCP Server",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.18.0",
     "express": "^5.1.0",

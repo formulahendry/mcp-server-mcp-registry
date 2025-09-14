@@ -1,5 +1,5 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { registerSearchMcpServers } from "./tools/searchMcpServers.js";
+import { registerListMcpServers } from "./tools/listMcpServers.js";
 
 export function createServer(): McpServer {
   const server = new McpServer({
@@ -7,7 +7,7 @@ export function createServer(): McpServer {
     version: "0.1.0",
   });
 
-  registerSearchMcpServers(server);
+  registerListMcpServers(server);
 
   return server;
 }
